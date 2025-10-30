@@ -58,4 +58,22 @@ git clone https://github.com/seu-usuario/classificador-heroi.git
 cd classificador-heroi
 npm install readline-sync
 node index.js
+
+## ✍️ Exemplo de Uso
+const nivel = calculaNivelHeroi(8500);
+console.log(nivel); // Imortal
+
+const resultado = calcularNivel(85, 20);
+console.log(resultado); // Saldo 65 → Diamante
+
+## 📁 Estrutura do Projeto
+
+├── index.js          # Código principal
+├── README.md         # Documentação do projeto
+└── package.json      # Dependências e metadados
+
+## 🤝 Contribuições
+
+Se quiser, posso te ajudar a criar o `package.json` também para deixar o projeto redondinho. Quer que eu gere esse arquivo para você?
+
  autor: david aparecido da silva
